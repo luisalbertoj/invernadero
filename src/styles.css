@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html,body {
+      height:100%;
+  }
+  #elementosBlancos {
+      color: aliceblue;
+  }
+  #target:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  }
+  #tarjetas-basuras {
+    height: 125px;
+  }
+  footer {
+  
+     /* Altura total del footer en px con valor negativo */
+     margin-top: 30px;
+     /* Altura del footer en px. Se han restado los 5px del margen
+        superior mas los 5px del margen inferior
+     */
+     height: 125px;
+  
+     clear: both;
+     background: green !important;
+     text-align: center;
+     color: #fff;
+  }
+  
+  /* Esta clase define la anchura del contenido y la posicion centrada
+    El contenido queda centrado y limitado, pero la cabecera y el pie
+    llegan hasta los limites del navegador.
+  */
+  .define {
+     width:960px;
+     margin: 0 auto;
+  }
+  .texto {
+    text-decoration: none;
+  }
+  
